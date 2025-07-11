@@ -2,6 +2,22 @@
 
 Este es un proyecto de portafolio personal desarrollado con React y Material Design. El objetivo es mostrar información personal, habilidades, proyectos académicos y profesionales, lenguajes de programación preferidos y experiencia laboral de manera atractiva y funcional.
 
+---
+
+## 📌 Objetivo
+
+Aplicar buenas prácticas de desarrollo mediante la creación de pruebas unitarias automatizadas que validen información clave del portafolio personal, haciendo uso de herramientas con inteligencia artificial como GitHub Copilot en un entorno de desarrollo moderno (Visual Studio Code + React).
+
+---
+
+## ⚙️ Tecnologías usadas
+
+- React con TypeScript
+- Material UI (MUI)
+- Visual Studio Code
+- Jest + React Testing Library
+- GitHub Copilot (IA)
+- Git y GitHub
 ## Estructura del Proyecto
 
 El proyecto tiene la siguiente estructura de archivos:
@@ -30,6 +46,29 @@ personal-portfolio
 ├── tsconfig.json           # Configuración de TypeScript
 └── README.md               # Documentación del proyecto
 ```
+## ✅ Validaciones Automatizadas Incluidas
+
+Se implementaron pruebas unitarias con Jest para validar:
+
+- ✅ Que el nombre completo y biografía estén presentes.
+- ✅ Que la imagen de perfil se cargue correctamente.
+- ✅ Que el número de teléfono esté definido.
+- ✅ Que existan al menos **5 habilidades**.
+- ✅ Que existan al menos **3 proyectos**.
+
+Archivo de pruebas: `src/App.test.tsx`
+
+---
+
+## 🤖 Uso de Inteligencia Artificial
+
+Durante el desarrollo de este proyecto se utilizó **GitHub Copilot** como asistente de codificación. La IA fue especialmente útil para:
+
+- Sugerir la estructura inicial de los tests con Jest y React Testing Library.
+- Generar fragmentos de código de pruebas adaptados al contenido del portafolio.
+- Autocompletar sintaxis y validar condiciones lógicas.
+
+**Las sugerencias de IA fueron adaptadas** para cumplir con los requerimientos específicos de esta actividad.
 
 ## Instalación
 
