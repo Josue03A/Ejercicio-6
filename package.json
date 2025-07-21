@@ -6,7 +6,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "keywords": [
@@ -14,7 +16,7 @@
     "react",
     "material-design"
   ],
-  "author": "Tu Nombre",
+  "author": "Adrian Josue Erazo Mena",
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2",
@@ -29,9 +31,9 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0"
   },
-  "homepage": "http://tu-sitio-web.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tu-usuario/personal-portfolio.git"
-  }
+    "url": "https://github.com/Josue03A/Ejercicio-6.git"
+  },
+  "homepage": "https://Josue03A.github.io/Ejercicio-6"
 }
